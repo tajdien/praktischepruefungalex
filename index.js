@@ -9,7 +9,7 @@ app.get('/api', (req, res) => {
 	res.send(JSON.stringify(data, null, 2));
 });
 
-const PORT = 3000;
+const PORT = 8080;
 
 app.listen(PORT, () => {
 	console.log('⏳ Server wird gestartet..');
