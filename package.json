@@ -1,0 +1,13 @@
+{
+	"name": "alexpruefung",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"description": "Webserver für die Praxis Prüfung von Alex",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
